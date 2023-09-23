@@ -136,6 +136,9 @@ p {
     font-weight: 300;
     font-size: 18px;
 }
+ul li, button {
+    cursor: pointer;
+}
 
 /* responsive css */
 @media screen and (max-width:550px) {

@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <script src="./signal.js"></script>
 </head>
 <body>
     <header class="upper">
@@ -17,9 +18,9 @@
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li><button class="button-primary">Hire Me</button></li>
+                    <li onclick="signal()">Home</li>
+                    <li onclick="signal()">Portfolio</li>
+                    <li onclick="signal()"><button class="button-primary">Hire Me</button></li>
                 </ul>
             </nav>
         </div>
@@ -28,8 +29,8 @@
                     <h4>Hi, I  am</h4>
                     <h2>Harun Ar Rashid</h2>
                     <p>I Am Professional MERN Stack Developer</p>
-                    <button class="button-primary" >Download CV</button>
-                    <button class="normal">Contact</button>
+                    <button class="button-primary" onclick="signal()" >Download CV</button>
+                    <button class="normal" onclick="signal()">Contact</button>
             </div>
             <div class="banner-img">
                 <img src="./images/me.png" alt="">
@@ -154,7 +155,7 @@
             </div>
         </div>
         <div class="button">
-            <button class="button-primary">Download CV</button>
+            <button class="button-primary" onclick="signal()">Download CV</button>
         </div>
     </div>
     <div class="footer-area">
@@ -179,6 +180,8 @@
         </div>
   
     </div>
+
+    
 
 </body>
 </html>
