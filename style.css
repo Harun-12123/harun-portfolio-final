@@ -136,3 +136,88 @@ p {
     font-weight: 300;
     font-size: 18px;
 }
+
+/* responsive css */
+@media screen and (max-width:550px) {
+    #abc {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        margin: 0 50px;
+        flex-direction: column;
+    }
+    .logo-area h1 {
+        font-size: 30px;
+    }
+    nav ul {
+        padding-left: 0;
+    }
+    .banner {
+        align-items: start;
+        flex-direction: column;
+        background-size: 100%;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .basic-info div {
+        margin-top: 15px;
+    }
+    .about-me {
+        margin: 0;
+    }
+    .basic-info {
+        flex-direction: column;
+    }
+    .i-do {
+        margin: 0;
+        padding: 0 30px;
+    }
+    .portfolio {
+        gap: 20px;
+        padding: 0 30px;
+        flex-direction: column;
+        margin: 0;
+    }
+    .qualification {
+        margin: 0;
+    }
+    .new-conteiner {
+        gap: 11px;
+        margin: 0;
+        padding: 0 30px;
+        flex-direction: column;
+    }
+    .sumary {
+        text-align: center;
+        padding-top: 25px;
+    }
+    .footer-area {
+        margin: 0;
+        gap: 30px;
+        flex-direction: column-reverse;
+        padding: 0 30px;
+        align-items: center;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .masage-area input {
+        margin-right: 0;
+    }
+    .masage-area .fff {
+        margin-right: 0;
+    }
+    .btn .button-primary {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .masage-area h4 {
+        text-align: center;
+    }
+    .text-area {
+        text-align: center;
+    }
+}
