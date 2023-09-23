@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.upper{
+    background-color: #FFF8F3;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+#abc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 46%;
+}
+.banner-img {
+    margin-bottom: -4px;
+}
+.banner-text{
+    margin-left: 50px;
+}
+.banner-text h2{
+    font-family: 'Croissant One', cursive;
+}
+.button-primary{
+    background-color: aqua;
+    padding: 4px 15px;
+}
+.normal{
+    padding: 4px 20px; 
+}
+.basic-info{
+    display: flex;
+    justify-content: space-between;
+}
+.about-me{
+    text-align: center;
+    margin: 50px 150px;
+    background-color:#FFF8F3;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+.basic-info h5{
+    margin: 0;
+    padding: 0;
+}
+.basic-info p{
+    margin: 0;
+    padding: 0; 
+}
+.i-do{
+    text-align: center;
+    margin: 0 300px;
+    margin-bottom: 100px;
+    
+}
+.portfolio {
+    display: flex;
+    gap: 30px;
+    margin: 0 100px 50px 100px;
+}
+.portfolio > img{
+    width: 44px;
+    height: 44px
+}
+.single-portfolio {
+    padding: 20px;
+    box-shadow: 0px 0px 9px -3px;
+    border-radius: 5px;
+}
+.sumary{
+    text-align: center;
+}
+.new-conteiner{
+    display: flex;
+    gap: 60px;
+    margin: 0 130px;
+    align-items: center;
+}
+.qualification{
+    margin: 0 140px;
+}
+.button{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-area{
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+    margin: 30px 96px;
+    gap: 50px;
+}
+.www{
+   align-items: flex-start;
+   padding-bottom: 0px 0px;
+   
+}
+.masage-area{
+    margin-bottom: 30px;
+}
+.fff{
+    gap: 5px;
+}
+.masage-area input{
+    margin-bottom: 10px;
+    margin-right: 50px;
+    padding: 10px 30px;
+}
+.masage-area .fff{
+    margin-right: 50px;
+}
+.logo-area h1 {
+    font-family: 'Croissant One', cursive;
+    font-size: 70px;
+}
+p {
+    font-weight: 300;
+    font-size: 18px;
+}
